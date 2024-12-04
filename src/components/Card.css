@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(24, 90, 149); /* Initial background color, will be overridden by JavaScript */
+}
+
+.quoteContainer {
+    border: 2px solid rgb(148, 63, 63);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
